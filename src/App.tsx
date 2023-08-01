@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import MonthCalendar from "./MonthCalendar";
+import WeekCalendar from "./WeekCalendar";
+import YearCalendar from "./YearCalendar";
 
 function App() {
+  const [type, setType] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ margin: 30 }}>
+      <div>
+        <button onClick={() => setType(0)}>Month</button>
+        <button onClick={() => setType(2)}>Year</button>
+        <button onClick={() => setType(1)}>Week</button>
+      </div>
+      {type === 0 ? (
+        <MonthCalendar />
+      ) : type === 1 ? (
+        <WeekCalendar />
+      ) : (
+        <YearCalendar />
+      )}
     </div>
   );
 }
