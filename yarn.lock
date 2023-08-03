@@ -3176,10 +3176,10 @@
   "resolved" "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz"
   "version" "3.1.2"
 
-"calendar-with-todo-list@^1.1.1":
-  "integrity" "sha512-ldU+FX+ncoqZMet1vXXapxDx/D3xJlOIkRHlhtTI0Zl6qRGJuY5OM2yV29Uu/4Mi31wrx64+B6esESrYdKGqJQ=="
-  "resolved" "https://registry.npmjs.org/calendar-with-todo-list/-/calendar-with-todo-list-1.1.1.tgz"
-  "version" "1.1.1"
+"calendar-with-todo-list@^1.2.0":
+  "integrity" "sha512-2jcB/9wW1ItgFs0cbolOFRJ6mbNBDZXVEXaQBHC4KqxifnHP7dFNGWdZjPgSOBDQamELFficPyArrezKYd5pCw=="
+  "resolved" "https://registry.npmjs.org/calendar-with-todo-list/-/calendar-with-todo-list-1.2.0.tgz"
+  "version" "1.2.0"
   dependencies:
     "react" "^18.2.0"
     "react-dom" "^18.2.0"
