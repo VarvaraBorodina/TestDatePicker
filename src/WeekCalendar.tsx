@@ -9,7 +9,7 @@ const WeekCalendar = () => {
         type={0}
         daysOff={true}
         weekends={true}
-        color={"#B3B3FF"}
+        color={"#813DF4"}
       />
     </div>
   );

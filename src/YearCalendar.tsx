@@ -9,7 +9,7 @@ const YearCalendar = () => {
         type={2}
         daysOff={true}
         weekends={true}
-        color={"#B3B3FF"}
+        color={"#813DF4"}
       />
     </div>
   );

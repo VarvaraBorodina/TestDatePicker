@@ -9,7 +9,7 @@ const MonthCalendar = () => {
         type={1}
         daysOff={true}
         weekends={true}
-        color="#B3B3FF"
+        color="#813DF4"
       />
     </div>
   );
